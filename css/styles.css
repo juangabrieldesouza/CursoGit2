@@ -1,5 +1,62 @@
 body {
     background-color: rgb(41, 38, 38);
-
-    width: 1 1 20%;
+    width: 65%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.hd {
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.hd1 {
+    flex: 1 1 40%;
+    text-align: start;
+    padding-left: 50%;
+    
+}
+
+.hd2 {
+   
+    flex: 1 1 60%;
+    justify-content: end;
+}
+.hd2 img {
+    max-width: 40%;
+    padding: 1%;
+    justify-items: end;
+}
+
+a, li {
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+}
+
+.nav_barup {
+    margin-top: -20px;
+    background-color: rgb(37, 7, 44);
+    
+}
+
+.ulnav {
+    display: flex;
+    
+    justify-content: center;
+}
+
+.li {
+    padding: 1% 1%;
+}
+
+.li:hover {
+    background-color: blueviolet;
+}
+
+
