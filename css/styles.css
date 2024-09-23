@@ -1,6 +1,6 @@
 body {
     background-color: rgb(41, 38, 38);
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -71,12 +71,24 @@ a, li {
 }
 
 .ad {
+    display: flex;
+    flex-direction: column;
     background-color: aliceblue;
-    
+    flex: 20%;
 }
 
 .ad p {
     margin: 7%;
 }
 
+.imgad {
+    padding: 2% 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+
+#sec article{
+    
+}
